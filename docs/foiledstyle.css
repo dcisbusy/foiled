@@ -1,0 +1,28 @@
+div.desc{
+    background-color: #000;
+    bottom: 0;
+    color: #fff;
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    width: 100%;
+}
+
+.fix{
+    width: 100%;
+    padding: 0px;
+  position:relative;
+}
+
+.desc_content{
+  padding:2% 0 0 4%;
+  
+}
+
+.hover{
+  opacity:0.5;
+  margin-bottom:2%;
+}
+.hover:hover{
+  opacity:1;
+}
