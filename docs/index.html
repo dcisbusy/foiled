@@ -2,8 +2,138 @@
 <html>
 <body>
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
+<!-- 
+- Toggle menu button doesn't untoggle when clicked http://jsfiddle.net/rcdtest/HDQNs/
+-->
+<script src="https://use.fontawesome.com/5db2029332.js"></script>
+<body id="top">
+  <div class="container-fluid">
+ <nav class="navbar navbar-fixed-top navbar-default" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#top">David Charles <small>Writer and Coder</small></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#top">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="http://twitter.com/dcisbusy"><i class="fa fa-twitter fa-lg"></i></a></li>
+      <li><a href="https://github.com/dcisbusy"><i class="fa fa-github fa-lg"></i></a></li>
+      <li><a href="https://www.freecodecamp.com/dcisbusy"><i class="fa fa-free-code-camp fa-lg"></i></a></li>
+      <li><a href="http://davidcharles.info/"><i class="fa fa-globe fa-lg"></i></a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+</div><!-- end container -->
+  
+<div class="container">
+  
+  <!-- About -->
+  <div class="jumbotron">
+    <h1>All about me!</h1>
+  <div class="row">
+  <div class="col-sm-8">
+    <p>I'm best known for writing <em>Foiled</em> with Beth Granville. A comedy set in a hair salon, <em>Foiled</em> had a hugely successful five-star run at the Edinburgh Fringe in 2016 and was broadcast as a 4-part sitcom on <a href="http://www.bbc.co.uk/programmes/b08x1wcc" target="_blank">BBC Radio Wales</a> in July 2017.</p>
+<p>Now, after 13 years of managing my own blog with Wordpress, I'm going into coding!</p>.
+    <p>Much love, <br/>DC</p>
+  </div>
+    <img class="col-sm-4 img-circle img-responsive myimage" src="http://davidcharles.info/wp-content/uploads/2013/12/cropped-Me-and-vegan-cake.jpg" alt="David Charles"/>
+    </div>
+  </div>
+  
+  <!-- Portfolio -->
+  <div id="portfolio">
+  <h2 style="padding-top:60px;" >Portfolio <small>Some of my coding projects</small></h2>
+    
+            <div class="row">
+              <div class="col-sm-4">
+          <a href="http://davidcharles.info">
+            <div class="fix hover">
+          <img class="img-rounded img-responsive" src="http://davidcharles.info/wp-content/uploads/2017/08/dc-info-for-portfolio.jpg" alt="davidcharles.info" />
+            <div class="desc">
+              <p class="desc_content">davidcharles.info | Wordpress, HTML, CSS</p>
+              </div></div>
+              </a>
+                </div>
+              
+              <div class="col-sm-4">
+ <a href="http://weareduckspeak.com">
+   <div class="fix hover">
+                     <img class="img-rounded img-responsive" src="http://davidcharles.info/wp-content/uploads/2017/08/Duckspeak-for-portfolio.jpg" alt="weareduckspeak.com" /> <div class="desc">
+              <p class="desc_content">weareduckspeak.com | Wordpress, HTML, CSS</p>
+     </div></div></a></div>
+   
+                <div class="col-sm-4">
+   <a href="https://codepen.io/dcisbusy/full/WEboKV/">
+     <div class="fix hover">
+                     <img class="img-rounded img-responsive " src="http://davidcharles.info/wp-content/uploads/2017/08/William-James-Codepen-for-portfolio.jpg" alt="William James Codepen"/><div class="desc">
+              <p class="desc_content">William James Tribute | Free Code Camp, Codepen, HTML, CSS, Bootstrap</p>
+       </div></div></a>
+                </div>
+          
+            
+    </div> 
+          
+<h2>Humble Praise <small>From Friends</small></h2>
+      
+        <div class="row">
+    <div class="col-sm-4">
+    <blockquote><p class="lead">The best sentence i've read in a long time. :)</p><footer><a href="http://twitter.com/documentally">@Documentally</a></footer></blockquote>
+      </div>
+          <div class="col-sm-4">
+            <blockquote><p class="lead">I really really needed to read this passage today! Cheers for writing it!</p><footer>@MyMateCass</a></footer></blockquote>
+          </div>
+            <div class="col-sm-4">
+              <blockquote><p class="lead">I love the way your mind works.</p><footer><a href="http://twitter.com/eatsleepcycle">@AnnaHughes</a></footer></blockquote>
+          </div>
+    </div>
+</div>
+
+<!-- Contact -->
+  <div class="container-fluid" id="contact" style="background-color:#EBECE4;">
+    <div class="row" >
+      <div class="col-sm-12">
+    <h2 style="padding-top:40px;">Catch you out there! <small>Let's hear your side of the story</small></h2>
+        </div>
+    </div>
+    <div class="row">
+    
+      <img class="col-sm-4 img-circle img-responsive" src="http://davidcharles.info/wp-content/uploads/2015/05/DSCF4173.jpg" alt="David Charles cycling in Tunisia"/>
+    
+      <div class="col-sm-5">
+        <p class="lead">David Charles made this page all by hisself, just like a grown up!</p><p>With thanks to Free Code Camp, Bootstrap and W3C. If you'd like something similar, get in touch. <i class="fa fa-hand-o-right"></i></p>
+      </div>
+      <div class="col-sm-3">
+        <ul class="fa-ul">
+        <li><a href="http://twitter.com/dcisbusy" class="btn" role="button"><span class="fa-stack fa-2x"><i class="fa fa-square-o fa-stack-2x"></i><i class="fa fa-twitter fa-stack-1x"></i></span> @dcisbusy</a></li>
+           <li><a href="http://github.com/dcisbusy" class="btn" role="button"><span class="fa-stack fa-2x"><i class="fa fa-square-o fa-stack-2x"></i><i class="fa fa-github fa-stack-1x"></i></span> @dcisbusy</a></li>
+             <li><a href="http://freecodecamp.com/dcisbusy" class="btn" role="button"><span class="fa-stack fa-2x"><i class="fa fa-square-o fa-stack-2x"></i><i class="fa fa-free-code-camp fa-stack-1x"></i></span> @dcisbusy</a></li> <li><a href="http://davidcharles.info" class="btn" role="button"><span class="fa-stack fa-2x"><i class="fa fa-square-o fa-stack-2x"></i><i class="fa fa-globe fa-stack-1x"></i></span> davidcharles.info</a></li>
+</span>
+              </ul>
+      </div>
+  </div>
+      </div>
+  <div class="fluid-container" style="padding:20px 5% 20px 5%;">
+    <p><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a> David Charles 2017</p>
+  </div>
+      
+  </body>
 
 </body>
 </html> 
