@@ -5,8 +5,9 @@ body {
 }
 
 h1, h2 {
-  color:#e3be49ff;
+  color:#e3be49ff !important;
   font-family: 'Yesteryear', cursive;
+  font-size: 150%;
 }
 
 div.desc{
