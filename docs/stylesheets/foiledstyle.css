@@ -1,5 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Yesteryear');
+
 body {
     background-color: #d6006fff;
+}
+
+h1, h2 {
+  color:#e3be49ff;
+  font-family: 'Yesteryear', cursive;
 }
 
 div.desc{
@@ -20,7 +27,7 @@ div.desc{
 
 .desc_content{
   padding:2% 0 0 4%;
-  
+
 }
 
 .hover{
