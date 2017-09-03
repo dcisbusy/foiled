@@ -4,10 +4,14 @@ body {
     background-color: #d6006fff;
 }
 
+.navbar {
+  color:#e3be49ff !important;
+  font-family: 'Yesteryear', cursive !important;
+}
+
 h1, h2 {
   color:#e3be49ff !important;
   font-family: 'Yesteryear', cursive;
-  font-size: 150%;
 }
 
 div.desc{
