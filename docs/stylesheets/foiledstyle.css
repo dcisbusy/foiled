@@ -34,6 +34,10 @@ body {
   color: #e3be49ff !important;
 }
 
+.navbar-toggle {
+  background-color: #e3be49ff !important;
+}
+
 h1, h2 {
   color:#e3be49ff !important;
   font-family: 'Beacon', cursive;
