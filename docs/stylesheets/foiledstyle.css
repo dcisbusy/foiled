@@ -36,6 +36,7 @@ body {
 
 .navbar-toggle {
   background-color: #e3be49ff !important;
+  border-color: #e3be49ff !important;
 }
 
 h1, h2 {
