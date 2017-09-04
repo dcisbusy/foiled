@@ -43,6 +43,10 @@ img {
   border-color: #e3be49ff !important;
 }
 
+.jumbotron {
+  margin-top:60px !important;
+}
+
 h1, h2 {
   color:#e3be49ff !important;
   font-family: 'Beacon', cursive;
