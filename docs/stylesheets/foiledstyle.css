@@ -13,13 +13,15 @@ body {
 }
 
 .navbar {
-  /* color: #e3be49ff !important;
-  font-family: 'Beacon', cursive !important; */
-  font-weight: bolder;
-  font-size: 150%;
   background-color: #d6006fff !important;
   border-color:#d6006fff !important;
   margin-bottom:auto;
+}
+
+.navbar-brand .navbar-nav {
+  color: #e3be49ff !important;
+  font-family: 'Beacon', cursive !important;
+  font-size: 150%;
 }
 
 h1, h2 {
