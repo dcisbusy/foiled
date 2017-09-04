@@ -12,6 +12,10 @@ body {
     background-color: #d6006fff;
 }
 
+img {
+  margin:auto;
+}
+
 .navbar {
   background-color: #d6006fff !important;
   border-color:#d6006fff !important;
