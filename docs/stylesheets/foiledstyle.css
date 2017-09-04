@@ -21,7 +21,14 @@ body {
 .navbar-brand {
   color: #e3be49ff !important;
   font-family: 'Beacon', cursive !important;
-  font-size: 150%;
+  font-size: 200%;
+  font-weight: bolder;
+}
+
+.navbar-nav {
+  color: #e3be49ff !important;
+  font-family: 'Beacon', cursive !important;
+  font-size: 200%;
 }
 
 h1, h2 {
