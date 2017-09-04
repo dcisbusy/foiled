@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Yesteryear');
 @font-face {
     font-family: 'Beacon';
-    src:url('Beacon.ttf.woff') format('woff'),
-        url('Beacon.ttf.svg#Beacon') format('svg'),
-        url('Beacon.ttf.eot'),
-        url('Beacon.ttf.eot?#iefix') format('embedded-opentype');
+    src:url('../webfonts_Beacon/Beacon.ttf.woff') format('woff'),
+        url('../webfonts_Beacon/Beacon.ttf.svg#Beacon') format('svg'),
+        url('../webfonts_Beacon/Beacon.ttf.eot'),
+        url('../webfonts_Beacon/Beacon.ttf.eot?#iefix') format('embedded-opentype');
     font-weight: normal;
     font-style: normal;
 }
