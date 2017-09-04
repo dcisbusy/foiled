@@ -13,9 +13,10 @@ body {
 }
 
 .navbar {
-  /* color: #e3be49ff !important; */
-  font-family: 'Beacon', cursive !important;
+  /* color: #e3be49ff !important;
+  font-family: 'Beacon', cursive !important; */
   font-weight: bolder;
+  font-size: 200%;
   background-color: #d6006fff !important;
   border-color:#d6006fff !important;
 }
