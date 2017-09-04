@@ -18,7 +18,7 @@ body {
   margin-bottom:auto;
 }
 
-.navbar-brand .navbar-nav {
+.navbar-brand {
   color: #e3be49ff !important;
   font-family: 'Beacon', cursive !important;
   font-size: 150%;
